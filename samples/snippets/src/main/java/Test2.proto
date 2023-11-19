@@ -1,0 +1,15 @@
+syntax = "proto2";
+
+option java_package = "com.example.bigquerystorage";
+option java_outer_classname = "TestProto2";
+
+package bigquerystorage;
+
+message Test2 {
+  optional int32 age = 1;
+  optional int32 id = 2;    
+  optional bool end_transaction = 3;
+  optional int64 source_record_id = 4; 
+  optional string service_file_id = 5; 
+  optional string name_st = 6;
+}
