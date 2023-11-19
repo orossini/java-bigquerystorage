@@ -53,8 +53,6 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Phaser;
 import java.util.concurrent.atomic.AtomicInteger;
 import javax.annotation.concurrent.GuardedBy;
-import org.json.JSONArray;
-import org.json.JSONObject;
 
 public class WriteProtoToDefaultStream {
 
