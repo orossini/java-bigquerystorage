@@ -63,9 +63,9 @@ public class WriteProtoToDefaultStream {
     public static void runWriteToDefaultStream()
             throws DescriptorValidationException, InterruptedException, IOException {
         // TODO(developer): Replace these variables before running the sample.
-        String projectId = "my-test-proj-381908"; // "MY_PROJECT_ID";
-        String datasetName = "vfit_test"; // "MY_DATASET_NAME";
-        String tableName = "test2"; // "test_write"; // "MY_TABLE_NAME";
+        String projectId = "MY_PROJECT_ID";
+        String datasetName = "MY_DATASET_NAME";
+        String tableName = "MY_TABLE_NAME";
         writeToDefaultStream(projectId, datasetName, tableName);
     }
 
